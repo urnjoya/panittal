@@ -1,0 +1,402 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="theme-color" content="#F44336">
+    <title>
+        பணித்தாள்
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+</head>
+
+<body class="font-roboto bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <!-- Dark/Light Mode Toggle -->
+    <div class="fixed top-4 right-4">
+        <button class="p-2 bg-gray-200 dark:bg-gray-700 rounded-full" id="theme-toggle">
+            <i class="fas fa-sun" id="theme-icon">
+            </i>
+        </button>
+    </div>
+    <!-- Header/Profile Section -->
+    <section
+        class="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white">
+        <img alt="Profile image of a professional individual" class="rounded-full mb-4 shadow-lg" height="200"
+            src="https://storage.googleapis.com/a1aa/image/Wk47JuORR3qoEZO0dNEUcBsh87xHX5EnLZ8dqBIw3BQPtQCF.jpg"
+            width="200" />
+        <h1 class="text-4xl font-bold">
+            Pushkar Srivastava
+        </h1>
+        <p class="text-xl mb-4">
+            Full Stack Developer
+        </p>
+        <div class="flex space-x-4">
+            <a class="bg-blue-500 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-600" download=""
+                href="CV_202501281754477.pdf">
+                Download CV
+            </a>
+            <a class="bg-green-500 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-green-600"
+                href="mailto:pushkarshrivastav89@gmail.com">
+                Email Me
+            </a>
+        </div>
+        <div class="flex space-x-4 mt-4">
+            <a class="text-blue-500 hover:text-blue-700" href="https://linkedin.com">
+                <i class="fab fa-linkedin fa-2x">
+                </i>
+            </a>
+            <a class="text-gray-900 dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300"
+                href="https://github.com/urnjoya">
+                <i class="fab fa-github fa-2x">
+                </i>
+            </a>
+            <a class="text-blue-400 hover:text-blue-600" href="https://twitter.com">
+                <i class="fab fa-twitter fa-2x">
+                </i>
+            </a>
+        </div>
+    </section>
+    <!-- Education Section -->
+    <section class="py-16 bg-gray-100 dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">
+                Education
+            </h2>
+            <div class="space-y-12">
+                <!-- High School -->
+                <div class="flex flex-col lg:flex-row items-start lg:items-center">
+                    <div class="w-full lg:w-1/3 text-center lg:text-right lg:pr-8 mb-4 lg:mb-0">
+                        <h3 class="text-xl font-semibold">
+                            High School
+                        </h3>
+                        <p class="text-gray-600">
+                            Modern Public Inter College
+                        </p>
+                        <p class="text-gray-500">
+                            2019
+                        </p>
+                    </div>
+                    <div class="w-full lg:w-2/3 lg:pl-8">
+                        <p>
+                            Graduated with honors, participated in various extracurricular activities including the
+                            science club and debate team.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Intermediate -->
+                <div class="flex flex-col lg:flex-row items-start lg:items-center">
+                    <div class="w-full lg:w-1/3 text-center lg:text-right lg:pr-8 mb-4 lg:mb-0">
+                        <h3 class="text-xl font-semibold">
+                            Intermediate
+                        </h3>
+                        <p class="text-gray-600">
+                            R.P. Singh R.K.D.I.C.
+                        </p>
+                        <p class="text-gray-500">
+                            2021
+                        </p>
+                    </div>
+                    <div class="w-full lg:w-2/3 lg:pl-8">
+                        <p>
+                            Specialized in Science, achieved top grades in Mathematics and Physics, and was a member of
+                            the robotics club.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Graduation -->
+                <div class="flex flex-col lg:flex-row items-start lg:items-center">
+                    <div class="w-full lg:w-1/3 text-center lg:text-right lg:pr-8 mb-4 lg:mb-0">
+                        <h3 class="text-xl font-semibold">
+                            Graduation
+                        </h3>
+                        <p class="text-gray-600">
+                            Siddharth University, Kapilvastu, Siddharth Nagar
+                        </p>
+                        <p class="text-gray-500">
+                            2021 - 2024
+                        </p>
+                    </div>
+                    <div class="w-full lg:w-2/3 lg:pl-8">
+                        <p>
+                            Bachelor's in Computer Science, Dean's list for 3 consecutive years, and completed a
+                            capstone project on AI-driven web applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="py-16 bg-white dark:bg-gray-700">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">
+                Projects
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div
+                    class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <img alt="Thumbnail of Project One" class="mb-4 rounded-lg" height="150"
+                        src="https://storage.googleapis.com/a1aa/image/VmBmwayVFH5WNxy98hU2XHlcBI8sdvK4vKFvZXrZmlSKqQCF.jpg"
+                        width="300" />
+                    <h3 class="text-xl font-semibold mb-2">
+                        Thozhil
+                    </h3>
+                    <p class="mb-4">
+                        A web application for managing tasks.
+                    </p>
+                    <p class="mb-4">
+                        <strong>
+                            Tech Stack:
+                        </strong>
+                        HTML, Tailwind, JavaScript, React
+                    </p>
+                    <a class="text-blue-500 hover:underline" href="https://urnjoya.github.io/thozhil">
+                        View Details
+                    </a>
+                </div>
+                <div
+                    class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <img alt="Thumbnail of Project Two" class="mb-4 rounded-lg" height="150"
+                        src="https://storage.googleapis.com/a1aa/image/WrvmUZD0JzriHR2oiusVYuQL489Y7tVEc6BjN2gO9HgKqQCF.jpg"
+                        width="300" />
+                    <h3 class="text-xl font-semibold mb-2">
+                        Project Two
+                    </h3>
+                    <p class="mb-4">
+                        An e-commerce platform with real-time payment processing.
+                    </p>
+                    <p class="mb-4">
+                        <strong>
+                            Tech Stack:
+                        </strong>
+                        Angular, Express, MySQL
+                    </p>
+                    <a class="text-blue-500 hover:underline" href="#">
+                        View Details
+                    </a>
+                </div>
+                <div
+                    class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <img alt="Thumbnail of Project Three" class="mb-4 rounded-lg" height="150"
+                        src="https://storage.googleapis.com/a1aa/image/E67WbKHe7ARJbKdbpTjdBi35G2KQgxb5VRJq2vLwyL4SUhEKA.jpg"
+                        width="300" />
+                    <h3 class="text-xl font-semibold mb-2">
+                        Project Three
+                    </h3>
+                    <p class="mb-4">
+                        A mobile app for tracking fitness activities and goals.
+                    </p>
+                    <p class="mb-4">
+                        <strong>
+                            Tech Stack:
+                        </strong>
+                        Flutter, Firebase
+                    </p>
+                    <a class="text-blue-500 hover:underline" href="#">
+                        View Details
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Training & Certifications Section -->
+    <section class="py-16 bg-gray-100 dark:bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">
+                Training &amp; Certifications
+            </h2>
+            <div class="flex overflow-x-scroll space-x-10">
+                <div
+                    class="flex-shrink-0 bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <img alt="Logo of a certification provider" class="mb-4" height="100"
+                        src="https://www.careerguide.com/career/wp-content/uploads/2023/10/ccc-banner-2.jpg"
+                        width="100" />
+                    <h3 class="text-xl font-semibold mb-2">
+                        CCC
+                    </h3>
+                    <p>
+                        The Course on Computer Concepts (CCC) is a government-certified<br> course in India that teaches
+                        basic computer skills. It's designed to help<br> people use computers for work and daily life.
+                    </p>
+                </div>
+                <div
+                    class="flex-shrink-0 bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <img alt="Logo of a certification provider" class="mb-4" height="100"
+                        src="https://static.javatpoint.com/fullformpages/images/adca-full-form.png" width="100" />
+                    <h3 class="text-xl font-semibold mb-2">
+                        ADCA
+                    </h3>
+                    <p>
+                        The Advanced Diploma in Computer Application (ADCA) is a one-year course<br> that teaches
+                        students
+                        about computer applications and IT. The course is designed<br> to help students develop the
+                        skills
+                        needed to work in the IT industry.
+                    </p>
+                </div>
+                <div
+                    class="flex-shrink-0 bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <img alt="Logo of a certification provider" class="mb-4" height="100"
+                        src="https://cdn.freebiesupply.com/logos/large/2x/java-1-logo-png-transparent.png"
+                        width="100" />
+                    <h3 class="text-xl font-semibold mb-2">
+                        Web Development using JAVA (J2EE)
+                    </h3>
+                    <p>
+                        5 Week Summer Training from Barrownz Learning<br>
+                        Web Development using JAVA (J2EE) is Java 2 Platform, Enterprise Edition (J2EE)<br> is a
+                        Java-based
+                        technology for developing web applications. It's a popular choice for <br>building enterprise
+                        applications.
+                    </p>
+                </div>
+                <div
+                    class="flex-shrink-0 bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                    <img alt="Logo of a certification provider" class="mb-4" height="100"
+                        src="https://scand.com/wp-content/uploads/2024/08/php_logo.svg" width="100" />
+                    <h3 class="text-xl font-semibold mb-2">
+                        Web Development PHP
+                    </h3>
+                    <p>
+                        8 Week Summer Training on from Internshala<br>
+                        The training consisted of HTML, CSS, Bootstrap, DBMS,PHP, JS, React, <br>and Final Project
+                        modules.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Form -->
+    <section class="py-16 bg-white dark:bg-gray-700">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">
+                Quick Query
+            </h2>
+            <form class="max-w-lg mx-auto" action="https://formsubmit.co/privategafbusiness@gmail.com" method="post">
+                <div class="mb-4">
+                    <label class="block text-sm font-medium mb-2" for="name">
+                        Name
+                    </label>
+                    <input type="text" class="w-full p-2 border border-gray-300 rounded-lg text-black" name="name"
+                        placeholder="Your Name" id="name" required />
+                </div>
+                <div class="mb-4">
+                    <label class="block text-sm font-medium mb-2" for="email">
+                        Email
+                    </label>
+                    <input class="w-full p-2 border border-gray-300 rounded-lg text-black" placeholder="Your Email"
+                        id="email" type="email" name="email" required />
+                </div>
+                <div class="mb-4">
+                    <label class="block text-sm font-medium mb-2" for="message">
+                        Message
+                    </label>
+                    <textarea class="w-full p-2 border border-gray-300 rounded-lg text-black" placeholder="Your Message"
+                        id="message" name="message" required></textarea>
+                </div>
+                <button class="bg-blue-500 text-white py-2 px-4 rounded-lg shadow-lg hover:bg-blue-600 " type="submit">
+                    Send
+                </button>
+                <input type="hidden" name="_autoresponse"
+                    value="Thank you for reaching out! We've received your message, and our team get back to you as soon as possible. ">
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <!-- <section class="py-16 bg-gray-100 dark:bg-gray-800 text-center"> -->
+    <footer class="py-10 px-4 bg-gray-100 dark:bg-gray-800 text-white">
+        <div class="max-w-lg mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4">
+                Newsletter Signup
+            </h2>
+            <form class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+                <input class="px-3 py-2 border rounded w-full md:w-auto" placeholder="Your Email" type="email" />
+                <button class="bg-white text-blue-500 px-4 py-2 rounded shadow hover:bg-gray-200" type="submit">
+                    Subscribe
+                </button>
+            </form>
+            <p class="mt-4 italic">
+                "Inspiration comes from within yourself. One has to be positive. When you're positive, good things
+                happen."
+            </p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a class="text-white hover:text-gray-300" href="https://www.facebook.com/">
+                    <i class="fab fa-facebook-f">
+                    </i>
+                </a>
+                <a class="text-white hover:text-gray-300" href="https://x.com/">
+                    <i class="fab fa-twitter">
+                    </i>
+                </a>
+                <a class="text-white hover:text-gray-300" href="https://in.linkedin.com/">
+                    <i class="fab fa-linkedin-in">
+                    </i>
+                </a>
+                <a class="text-white hover:text-gray-300" href="https://github.com/urnjoya">
+                    <i class="fab fa-github">
+                    </i>
+                </a>
+            </div>
+            <p class="mt-4">
+                © 2025 பணித்தாள். All rights reserved.
+            </p>
+        </div>
+        <button
+            class="fixed bottom-4 right-4 bg-blue-500 text-white p-2 rounded-full shadow-lg hover:bg-blue-600 hidden"
+            id="backToTop">
+            <i class="fas fa-arrow-up">
+            </i>
+        </button>
+    </footer>
+    <script>
+        // Dark/Light Mode Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeIcon = document.getElementById('theme-icon');
+        const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const currentTheme = localStorage.getItem('theme') || (userPrefersDark ? 'dark' : 'light');
+
+        if (currentTheme === 'dark') {
+            document.documentElement.classList.add('dark');
+            themeIcon.classList.remove('fa-sun');
+            themeIcon.classList.add('fa-moon');
+        } else {
+            document.documentElement.classList.remove('dark');
+            themeIcon.classList.remove('fa-moon');
+            themeIcon.classList.add('fa-sun');
+        }
+
+        themeToggle.addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark');
+            if (document.documentElement.classList.contains('dark')) {
+                themeIcon.classList.remove('fa-sun');
+                themeIcon.classList.add('fa-moon');
+                localStorage.setItem('theme', 'dark');
+            } else {
+                themeIcon.classList.remove('fa-moon');
+                themeIcon.classList.add('fa-sun');
+                localStorage.setItem('theme', 'light');
+            }
+        });
+
+        // Back to Top Button
+        const backToTopButton = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 200) {
+                backToTopButton.classList.remove('hidden');
+            } else {
+                backToTopButton.classList.add('hidden');
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+    </script>
+</body>
+
+</html>

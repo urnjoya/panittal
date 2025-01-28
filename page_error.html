@@ -1,0 +1,117 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        404 Error - Page Not Found
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .hover-bounce:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s;
+        }
+
+        .blink {
+            animation: blink-animation 1.5s steps(2, start) infinite;
+        }
+
+        @keyframes blink-animation {
+            to {
+                visibility: hidden;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200">
+    <div class="min-h-screen flex flex-col items-center justify-center p-4">
+        <div class="text-center">
+            <img alt="A broken robot with blinking eyes" class="mx-auto mb-4 blink"
+                src="https://placehold.co/400x200/EEE/31343C?font=raleway&text=Broken+Robot&amp;bg=ffcc00" />
+            <h1 class="text-4xl md:text-6xl font-bold mb-2">
+                Oops! Page not found
+
+            </h1>
+            <p class="text-lg md:text-2xl mb-6">
+                We tried to find the page, but it must be on vacation!
+            </p>
+
+            <button
+                class="px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 hover-bounce focus:outline-none focus:ring-2 focus:ring-blue-500 mb-6"
+                onclick="window.location.href='https://urnjoya.github.io/thozhil/';">
+                Back to Home
+            </button>
+
+            <div class="mb-6 my-20">
+                <h2 class="text-2xl font-bold mb-2">
+                    Fun Fact of the Day
+                </h2>
+                <p>
+                    Did you know? Honey never spoils. Archaeologists have found pots of honey in ancient Egyptian tombs
+                    that are over 3,000 years old and still perfectly edible.
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer -->
+    <!-- <section class="py-16 bg-gray-100 dark:bg-gray-800 text-center"> -->
+    <footer class="py-10 px-4 bg-gray-100 dark:bg-gray-800 text-white">
+        <div class="max-w-lg mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-4">
+                Newsletter Signup
+            </h2>
+            <form class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
+                <input class="px-3 py-2 border rounded w-full md:w-auto" placeholder="Your Email" type="email" />
+                <button class="bg-white text-blue-500 px-4 py-2 rounded shadow hover:bg-gray-200" type="submit">
+                    Subscribe
+                </button>
+            </form>
+            <p class="mt-4 italic">
+                "Inspiration comes from within yourself. One has to be positive. When you're positive, good things
+                happen."
+            </p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a class="text-white hover:text-gray-300" href="https://www.facebook.com/">
+                    <i class="fab fa-facebook-f">
+                    </i>
+                </a>
+                <a class="text-white hover:text-gray-300" href="https://x.com/">
+                    <i class="fab fa-twitter">
+                    </i>
+                </a>
+                <a class="text-white hover:text-gray-300" href="https://in.linkedin.com/">
+                    <i class="fab fa-linkedin-in">
+                    </i>
+                </a>
+                <a class="text-white hover:text-gray-300" href="https://github.com/urnjoya">
+                    <i class="fab fa-github">
+                    </i>
+                </a>
+            </div>
+            <p class="mt-4">
+                © 2025 பணித்தாள். All rights reserved.
+            </p>
+        </div>
+        <button
+            class="fixed bottom-4 right-4 bg-blue-500 text-white p-2 rounded-full shadow-lg hover:bg-blue-600 hidden"
+            id="backToTop">
+            <i class="fas fa-arrow-up">
+            </i>
+        </button>
+    </footer>
+    <script>
+
+    </script>
+</body>
+
+</html>
